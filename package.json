@@ -38,5 +38,13 @@
     "gulp-util": "^3.0.4",
     "through2": "^0.6.3",
     "vimlint": "^0.1.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pine613/gulp-vimlint"
+  },
+  "bugs": {
+    "url": "https://github.com/pine613/gulp-vimlint/issues"
+  },
+  "homepage": "https://github.com/pine613/gulp-vimlint"
 }
