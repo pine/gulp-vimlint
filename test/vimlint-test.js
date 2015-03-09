@@ -26,6 +26,9 @@ function getTestFile(file) {
   });
 }
 
+function getNullFile() {
+  return new gutil.File();
+}
 
 describe('Test for lib/vimlint.js', function () {
   it('should pass lint', function (done) {
@@ -62,6 +65,25 @@ describe('Test for lib/vimlint.js', function () {
         done();
       });
       
+    stream.write(file);
+    stream.end();
+  });
+  
+  it('should pass lint if stream is null', function (done) {
+    var file = getNullFile();
+    var stream = vimlint(file);
+    var on_data = sinon.spy(console.log);
+    var on_error = sinon.spy(console.error);
+    
+    stream
+      .on('data', on_data)
+      .on('error', on_error)
+      .once('end', function () {
+        expect(on_data).to.have.been.calledOnce;
+        expect(on_error).to.not.have.been.called;
+        done();
+      });
+    
     stream.write(file);
     stream.end();
   });

@@ -25,6 +25,8 @@
     "chai": "^2.1.1",
     "coffee-script": "^1.9.1",
     "gulp": "^3.8.11",
+    "gulp-istanbul": "^0.6.0",
+    "gulp-jshint": "^1.9.2",
     "gulp-mocha": "^2.0.0",
     "gulp-plumber": "^1.0.0",
     "sinon": "^1.13.0",
