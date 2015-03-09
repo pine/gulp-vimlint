@@ -23,6 +23,8 @@ gulp.task 'coverage', (cb) ->
         .once 'end', ->
           cb(mochaErr)
   
+  undefined
+  
 gulp.task 'jshint', ->
   gulp.src ['*.js', 'lib/**/*.js', 'test/**/*.js']
     .pipe jshint()
