@@ -20,8 +20,7 @@ gulp.task 'coverage', (cb) ->
         .on 'error', (err) ->
           mochaErr = err
         .pipe istanbul.writeReports()
-        .on 'end', ->
-          console.log 'end'
+        .once 'end', ->
           cb(mochaErr)
   
 gulp.task 'jshint', ->
