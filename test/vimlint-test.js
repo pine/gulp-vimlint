@@ -1,3 +1,5 @@
+'use strict';
+
 /*jshint node: true */
 /*jshint expr: true */
 /*globals describe, it */
