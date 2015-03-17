@@ -26,6 +26,7 @@
     "chai": "^2.1.1",
     "codeclimate-test-reporter": "0.0.4",
     "coffee-script": "^1.9.1",
+    "coveralls": "^2.11.2",
     "gulp": "^3.8.11",
     "gulp-istanbul": "^0.6.0",
     "gulp-jshint": "^1.9.2",
