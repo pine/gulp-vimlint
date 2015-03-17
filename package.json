@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "test": "gulp test",
-    "coverage": "codeclimate < coverage/lcov.info"
+    "coverage": "codeclimate < coverage/lcov.info && coveralls < coverage/lcov.info"
   },
   "keywords": [
     "gulpplugin"
