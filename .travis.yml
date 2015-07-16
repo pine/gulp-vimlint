@@ -11,4 +11,8 @@ env:
   global:
     secure: "POPhbUFA5+AlJrba8bEbyHwTSs/13Wric+eUwey0N6Isd8Gj43EuuINrVbHcSgk8LAjqrBG/nt4iWWsB+cb8tn4oXG3stV1D6ZlLh33m2iDBZMkh6rfyGvtoIuD1j06JJ4JVGJFkLcIwohDhLmavg1MYrqDiGBmd5Q9it8XQfrY="
 
+notifications:
+  slack:
+    secure: "g52F0kv3tfcRQbsJG8F+BWguqOtzVhPjc9NEvAinVykW21Wjjpi09T2+sGoWgYlAIC907Q0vxcTE1BbNdN3FWfPxmEt15il2Lc2pIYivsubNVOdBjmPhvc1OCDTH3ZFJqw1n6CgfiQmStdiBhtx1XyJ8v7PIgYTyIUR3/tiWcaY="
+
 sudo: false
