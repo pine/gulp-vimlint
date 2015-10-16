@@ -41,6 +41,7 @@ This plugin uses following software to validate `.vim` files. Thank you.
 
  -  [node-vimlint](https://github.com/pine613/node-vimlint)
  -  [grunt-vimlint](https://github.com/pine613/grunt-vimlint)
+ -  [fly-vimlint](https://github.com/pine613/fly-vimlint)
 
 ## License
 MIT License<br />
