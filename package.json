@@ -24,14 +24,15 @@
   "license": "MIT",
   "devDependencies": {
     "chai": "^3.0.0",
-    "codeclimate-test-reporter": "0.0.4",
+    "codeclimate-test-reporter": "^0.1.1",
     "coffee-script": "^1.9.1",
     "coveralls": "^2.11.2",
     "gulp": "^3.8.11",
     "gulp-istanbul": "^0.10.0",
-    "gulp-jshint": "^1.9.2",
+    "gulp-jshint": "^2.0.0",
     "gulp-mocha": "^2.0.0",
     "gulp-plumber": "^1.0.0",
+    "jshint": "^2.8.0",
     "sinon": "^1.13.0",
     "sinon-chai": "^2.7.0"
   },
