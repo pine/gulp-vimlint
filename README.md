@@ -1,12 +1,13 @@
 gulp-vimlint
 ------------
 
-[![npm version](https://badge.fury.io/js/gulp-vimlint.svg)](http://badge.fury.io/js/gulp-vimlint)
-[![Build Status](https://travis-ci.org/pine/gulp-vimlint.svg?branch=master)](https://travis-ci.org/pine/gulp-vimlint)
-[![Code Climate](https://codeclimate.com/github/pine/gulp-vimlint/badges/gpa.svg)](https://codeclimate.com/github/pine/gulp-vimlint)
-[![Coverage Status](https://coveralls.io/repos/pine/gulp-vimlint/badge.svg?branch=master)](https://coveralls.io/r/pine/gulp-vimlint?branch=master)
-[![Dependency Status](https://david-dm.org/pine/gulp-vimlint.svg)](https://david-dm.org/pine/gulp-vimlint)
-[![devDependency Status](https://david-dm.org/pine/gulp-vimlint/dev-status.svg)](https://david-dm.org/pine/gulp-vimlint#info=devDependencies)
+[![npm version](https://img.shields.io/npm/v/gulp-vimlint.svg?style=flat-square)](https://www.npmjs.com/package/gulp-vimlint)
+[![Build Status](https://img.shields.io/travis/pine/gulp-vimlint/master.svg?style=flat-square)](https://travis-ci.org/pine613/gulp-vimlint)
+[![Code Climate](https://img.shields.io/codeclimate/github/pine/gulp-vimlint.svg?style=flat-square)](https://codeclimate.com/github/pine613/gulp-vimlint)
+[![Coverage Status](https://img.shields.io/coveralls/pine613/gulp-vimlint/master.svg?style=flat-square)](https://coveralls.io/r/pine613/gulp-vimlint?branch=master)
+[![Dependency Status](https://img.shields.io/david/pine/gulp-vimlint.svg?style=flat-square)](https://david-dm.org/pine613/gulp-vimlint)
+[![devDependency Status](https://img.shields.io/david/dev/pine/gulp-vimlint.svg?style=flat-square)](https://david-dm.org/pine613/gulp-vimlint#info=devDependencies)
+
 
 Validate `.vimrc`, `.vim` files with [vimlint](https://github.com/syngan/vim-vimlint).
 
