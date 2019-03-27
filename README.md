@@ -6,7 +6,7 @@ gulp-vimlint
 [![Code Climate](https://img.shields.io/codeclimate/github/pine/gulp-vimlint.svg?style=flat-square)](https://codeclimate.com/github/pine613/gulp-vimlint)
 [![Coverage Status](https://img.shields.io/coveralls/pine613/gulp-vimlint/master.svg?style=flat-square)](https://coveralls.io/r/pine613/gulp-vimlint?branch=master)
 [![Dependency Status](https://img.shields.io/david/pine/gulp-vimlint.svg?style=flat-square)](https://david-dm.org/pine613/gulp-vimlint)
-[![devDependency Status](https://img.shields.io/david/dev/pine/gulp-vimlint.svg?style=flat-square)](https://david-dm.org/pine613/gulp-vimlint#info=devDependencies)
+[![devDependency Status](https://img.shields.io/david/dev/pine/gulp-vimlint.svg?style=flat-square)](https://david-dm.org/pine613/gulp-vimlint#info=devDependencies) [![Greenkeeper badge](https://badges.greenkeeper.io/pine/gulp-vimlint.svg)](https://greenkeeper.io/)
 
 
 Validate `.vimrc`, `.vim` files with [vimlint](https://github.com/syngan/vim-vimlint).
